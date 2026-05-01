@@ -1,3 +1,8 @@
+> **Status: Work in progress (R&D, evaluation window, private under 0SxD).**
+> This repository is staged for review only and remains under active
+> development. License terms in LICENSE govern; contents may move, change, or
+> be withdrawn. See LICENSE before any use.
+
 # nvidia_gcp_vm_setup_plan
 
 Detailed plan for setting up a GCP Compute Engine VM that gives full access to NVIDIA's open-source AI ecosystem, plus a fallback path for local-without-hardware-upgrades use, plus a YouTube-transcript skill (taught to self via open-source repo).

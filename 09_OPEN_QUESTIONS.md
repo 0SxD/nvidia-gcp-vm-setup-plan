@@ -20,7 +20,7 @@ B3. OK with spot/preemptible for non-production workloads? (default YES)
 
 ## C -- NGC Account
 
-C1. NGC account email (free): default austing143@gmail.com?
+C1. NGC account email (free): default <contact>?
 C2. NGC API key generated and stored in a password manager? (yes/no)
 C3. Confirm NGC account "Services Included" includes "NGC Catalog" + "NIM" when generating the key.
 
@@ -68,7 +68,7 @@ To avoid blocking forever:
 - B1: `us-central1`
 - B2: 1 × L4
 - B3: YES spot for dev
-- C1: austing143@gmail.com
+- C1: <contact>
 - D1: rank 1 = inference via NIM
 - D2: YES Track B first
 - E1: install Workbench

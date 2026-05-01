@@ -1,19 +1,23 @@
+.env
+.env.*
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+node_modules/
+.claude/
+.DS_Store
+*.log
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.ckpt
 # Local env (contains NGC_API_KEY, etc.)
 scripts/env.sh
-
 # Python venv for the YouTube-transcript skill
 skills/*/.venv/
-
-# Cloned NVIDIA repos -- if Sage chooses to clone heavy ones, keep them out of this repo
+# Cloned NVIDIA repos
 repos/cloned/
-
 # Smoke test artifacts
 skills/youtube-transcript/smoke_test.py
 skills/youtube-transcript/*.vtt
-
-# OS / editor
-.DS_Store
-Thumbs.db
-*.swp
-*.bak
-__pycache__/
